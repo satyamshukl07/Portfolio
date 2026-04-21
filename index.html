@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Satyam Shukla — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+  <!-- CSS file connected here -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav>
+    <a class="nav-logo" href="#hero">Satyam shukla</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- Hamburger button for mobile -->
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-inner">
+      <span class="hero-tag">Open to opportunities</span>
+      <h1 class="hero-name">Satyam <span>Shukla</span></h1>
+      <p class="hero-sub">
+        Computer Science Graduate &amp; Aspiring Software Developer<br/>
+        Passionate about building clean, impactful solutions.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Profile Photo -->
+        <div>
+          <div class="about-photo">
+            <!-- Replace src with your actual photo path -->
+            <img src="assets/images/sat.jpeg" alt="Satyam Shukla" id="profile-img">
+            <!-- Fallback icon shown if no image -->
+            <span class="photo-fallback">&#128100;</span>
+          </div>
+        </div>
+
+        <!-- About Text -->
+        <div class="about-text">
+          <p class="section-label">About Me</p>
+          <h2 class="section-title">Turning ideas into<br/>real-world solutions</h2>
+          <div class="divider"></div>
+          <p>Hi, I'm <strong>Satyam Shukla</strong> — a final-year Computer Science student at  Shrinathji Institute For Technical Education with a strong interest in software development, data, and problem-solving.</p>
+          <p>I enjoy working on projects that challenge me to think creatively and grow technically. I'm currently seeking internship or entry-level opportunities where I can contribute, learn, and make a meaningful impact.</p>
+          <p>Outside of coding, I enjoy competitive programming, reading tech blogs, and exploring new tools and frameworks.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <div class="stat-num">2+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">0</div>
+              <div class="stat-label">Internships</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">2026</div>
+              <div class="stat-label">Graduating</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">What I Know</p>
+      <h2 class="section-title">Skills &amp; Expertise</h2>
+      <div class="divider"></div>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128187;</div>
+          <h3>Programming Languages</h3>
+          <p>Comfortable with multiple languages for both academic and personal projects.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#127760;</div>
+          <h3>Web Development</h3>
+          <p>Building responsive, functional web applications from front to back.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128202;</div>
+          <h3>Data &amp; Databases</h3>
+          <p>Querying, managing, and analysing data with modern tools.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#9881;</div>
+          <h3>Tools &amp; Platforms</h3>
+          <p>Version control, cloud basics, and developer productivity tools.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Figma</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">My Work</p>
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="divider"></div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <!-- Replace with your actual project screenshot -->
+          <div class="project-thumb">
+            <img src="assets/images/projects/project1.png" alt="Project 1" onerror="this.style.display='none'"/>
+            <span class="thumb-fallback">&#128203;</span>
+          </div>
+          <div class="project-body">
+            <h3>Task Management App</h3>
+            <p>A full-stack web app for managing daily tasks with user authentication and real-time updates.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank">Live Demo →</a>
+              <a href="#" class="project-link" target="_blank">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-thumb alt">
+            <img src="assets/images/projects/project2.png" alt="Project 2" onerror="this.style.display='none'"/>
+            <span class="thumb-fallback">&#128200;</span>
+          </div>
+          <div class="project-body">
+            <h3>Student Result Analyser</h3>
+            <p>A Python-based data analysis tool that processes academic results and visualises performance trends.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">Matplotlib</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank">View Report →</a>
+              <a href="#" class="project-link" target="_blank">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-thumb alt2">
+            <img src="assets/images/projects/project3.png" alt="Project 3" onerror="this.style.display='none'"/>
+            <span class="thumb-fallback">&#128274;</span>
+          </div>
+          <div class="project-body">
+            <h3>E-Commerce Platform</h3>
+            <p>A mini shopping platform with product listings, cart functionality, and checkout flow.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">HTML/CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank">Live Demo →</a>
+              <a href="#" class="project-link" target="_blank">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RESUME ── -->
+  <section id="resume">
+    <div class="container">
+      <div class="resume-block">
+        <p class="section-label">My Background</p>
+        <h2 class="section-title">Resume</h2>
+        <div class="divider"></div>
+        <p class="resume-intro">
+          I'm a motivated computer science student with hands-on project experience,
+          strong academic performance, and a genuine passion for technology.
+        </p>
+        <!-- Resume PDF linked here -->
+        <a href="assets/resume/your-resume.pdf" class="resume-btn" target="_blank" download>
+          &#8659; Download Resume (PDF)
+        </a>
+        <div class="resume-highlights">
+          <div class="highlight">
+            <h4>Education</h4>
+            <p>B.Tech Computer Science<br/>Shrinathji Institute For Technical Education, 2022–2026<br/>CGPA: 8.4 / 10</p>
+          </div>
+          <div class="highlight">
+            <h4>Experience</h4>
+            <p>Web Dev Intern<br/>ABC Tech, Summer 2024<br/>2 months</p>
+          </div>
+          <div class="highlight">
+            <h4>Achievements</h4>
+            <p>Hackathon Finalist<br/>Dean's List 2023<br/>DSA Contest Top 10%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Let's Connect</p>
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="divider"></div>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <p>I'm currently looking for internship and full-time opportunities. Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:yourname@email.com" class="contact-link">
+              <div class="contact-link-icon">&#9993;</div>
+              satyamshukla0715@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/yourname" class="contact-link" target="_blank">
+              <div class="contact-link-icon">in</div>
+              https://www.linkedin.com/in/satyam-shukla07/
+            </a>
+            <a href="https://github.com/satyamshukla07" class="contact-link" target="_blank">
+              <div class="contact-link-icon">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+              </div>
+              github.com/satyamshukla07
+            </a>
+            <a href="tel:+919876543210" class="contact-link">
+              <div class="contact-link-icon">&#128222;</div>
+              +91 98765 43210
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div>
+          <form class="contact-form" id="contact-form">
+            <input type="text"  id="name"    placeholder="Your Name"    required />
+            <input type="email" id="email"   placeholder="Your Email"   required />
+            <input type="text"  id="subject" placeholder="Subject"      required />
+            <textarea           id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <!-- Success / Error message shown by JS -->
+            <p id="form-msg" class="form-msg"></p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <p>Designed &amp; Built by Your Name &nbsp;·&nbsp; 2025</p>
+  </footer>
+
+  <!-- JS file connected here — always at bottom of body -->
+  <script src="script.js"></script>
+
+</body>
+</html>
