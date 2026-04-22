@@ -1,13 +1,4 @@
-// =========================================
-// script.js — Portfolio JavaScript
-// Connected in index.html via:
-// <script src="script.js"></script>
-// =========================================
 
-
-// =========================================
-// 1. HAMBURGER MENU (mobile ke liye)
-//    Nav links ko toggle karta hai
 // =========================================
 const hamburger = document.getElementById('hamburger');
 const navLinks  = document.querySelector('.nav-links');
@@ -26,10 +17,7 @@ document.querySelectorAll('.nav-links a').forEach(function (link) {
 });
 
 
-// =========================================
 // 2. NAVBAR SCROLL EFFECT
-//    Scroll karne par navbar ka background thoda change ho
-// =========================================
 const nav = document.querySelector('nav');
 
 window.addEventListener('scroll', function () {
