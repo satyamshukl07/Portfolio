@@ -167,10 +167,3 @@ if (yearEl) {
 }
 
 
-// =========================================
-// FUTURE IDEAS (baad mein add kar sakte ho):
-// - Dark mode toggle
-// - Typing animation in hero
-// - EmailJS for real form submission
-// - Project filter by technology
-// =========================================
